@@ -19,7 +19,7 @@
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
 
-  1. The tree could be uneven, or even worse, already sorted (effectively creating a linked list). The search would take more time in an unbalanced tree.
+  1. The tree could be unbalanced, or even worse, already sorted (effectively creating a linked list). The search would take more time in an unbalanced tree, or worst case linear time..
   2. Hardware issues or slowdowns could be playing a role.
   3. The algorithm was implemented poorly, resulting in a slower runtime. 
 
