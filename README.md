@@ -20,7 +20,7 @@
   complexity suggests a different time.
 
   1. The tree could be unbalanced, or even worse, already sorted (effectively creating a linked list). The search would take more time in an unbalanced tree, or worst case linear time.
-  2. Hardware issues or slowdowns could be playing a role, such as a lack of the necessary amount of ram to run this algorithm efficiently, or overhead such as the operating system or other program running simultaneously. 
+  2. Hardware issues or slowdowns could be playing a role. With a larger input, more hardware resources could be being used than a smaller input. If there are temporary variables being used each time the find is called recursively, these can add up and negatively effect the space complexity, thus slowing down the processing. 
   3. The algorithm was implemented poorly, resulting in a slower runtime. 
 
 Add your answers to this markdown file.
