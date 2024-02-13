@@ -6,7 +6,7 @@
 
   1. Asymptotic analysis is concerned with the performance of an algorithm with very large inputs. In practice input sizes can vary, therefor the analysis may differ. An analysis of the time complexity at a smaller input may be drastically different from the asymptotic complexity, and smaller inputs may be what an algorithm is concerned with practically. 
   2. Asymptotic analysis is not concerened with constant factors, and in practice varying constant values can effect performance. (Memory comes to mind)
-  3. Aymptotic analysis is a big picture model for algorithms, and doesn't take into account minutia such as compilers, programming language, and specific implementations. These specific implementation of an algorithm may optimize it differently, depending on the constructs of the programming language, therefor this could have an effect on the over accuracy asymptotic analysis. 
+  3. Aymptotic analysis is a model for the bounded growth rate of algorithms, and doesn't take into account minutia such as compilers, programming language, and specific implementations. The asymptotic complexity of an algorithm does not change based on these factors, but these factors can effect the overall runtime for the algorithm. The asymptotic complexity only gives a universal growth rate for the algorithm, and the actual runtime can vary. Additionally, the asymptotic complexity of an algorithm doesn't change based on implementation if the constant factors and dominating term remain the same. 
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
