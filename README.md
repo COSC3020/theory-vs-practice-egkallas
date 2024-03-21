@@ -4,7 +4,7 @@
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
 
-  1. Asymptotic analysis is only concerned with the performance of an algorithm in terms of input size, though this is not the only factor that contributes to the algorithm's performance. Expected results from an asymptotic analysis only based on this variable will be misleading if other variables such as space complexity are not taken into account. 
+  1. Asymptotic analysis is not concerned with constant factors, yet these constants can effect the performance of the algorithm in practice. 
   2. Big $O$ and Big $\Omega$ are not tight bounds for algorithms. Knowing this one could say that every algorithm is an element of $\Omega(1)$ and though this is by definition true, it doesn't tell us anything about the time complexity of the algorithm.
   3. If an arbitrarily large $n_0$ is chosen for the asymptotic analysis of an algorithm, the analysis is only concerned with values larger than $n_0$, therefor the behavior of all values below that is a mystery.
 
