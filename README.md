@@ -5,7 +5,7 @@
   actual performance in practice.
 
   1. Asymptotic analysis is only concerned with the performance of an algorithm in terms of input size, though this is not the only factor that contributes to the algorithm's performance. Expected results from an asymptotic analysis only based on this variable will be misleading if other variables such as space complexity are not taken into account. 
-  2. Big $O$ and Big $/omega$ are not tight bounds for algorithms. Knowing this one could say that every algorithm is an element of $/Omega(1)$ and though this is by defition true, it doesn't tell us anything about the time complexity of the algorithm.
+  2. Big $O$ and Big $\Omega$ are not tight bounds for algorithms. Knowing this one could say that every algorithm is an element of $/Omega(1)$ and though this is by defition true, it doesn't tell us anything about the time complexity of the algorithm.
   3. Aymptotic analysis is a model for the bounded growth rate of algorithms, and doesn't take into account minutia such as compilers, programming language, and specific implementations. The asymptotic complexity of an algorithm does not change based on these factors, but these factors can effect the overall runtime for the algorithm. The asymptotic complexity only gives a universal growth rate for the algorithm, and the actual runtime can vary. Additionally, the asymptotic complexity of an algorithm doesn't change based on implementation if the constant factors and dominating term remain the same. 
 
 - Suppose finding a particular element in a binary search tree with 1,000
