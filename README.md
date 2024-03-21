@@ -6,7 +6,7 @@
 
   1. Asymptotic analysis is only concerned with the performance of an algorithm in terms of input size, though this is not the only factor that contributes to the algorithm's performance. Expected results from an asymptotic analysis only based on this variable will be misleading if other variables such as space complexity are not taken into account. 
   2. Big $O$ and Big $\Omega$ are not tight bounds for algorithms. Knowing this one could say that every algorithm is an element of $\Omega(1)$ and though this is by defition true, it doesn't tell us anything about the time complexity of the algorithm.
-  3. If an arbitrarily large $n0$ is chosen for the asymptotic analysis of an algorithm, the analysis is only concerned with values larger than $n0$, therefor the behavior of all values below that is a mystery.
+  3. If an arbitrarily large $n_0$ is chosen for the asymptotic analysis of an algorithm, the analysis is only concerned with values larger than $n_0$, therefor the behavior of all values below that is a mystery.
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
