@@ -5,7 +5,7 @@
   actual performance in practice.
 
   1. Asymptotic analysis is only concerned with the performance of an algorithm in terms of input size, though this is not the only factor that contributes to the algorithm's performance. Expected results from an asymptotic analysis only based on this variable will be misleading if other variables such as space complexity are not taken into account. 
-  2. Big $O$ and Big $\Omega$ are not tight bounds for algorithms. Knowing this one could say that every algorithm is an element of $\Omega(1)$ and though this is by defition true, it doesn't tell us anything about the time complexity of the algorithm.
+  2. Big $O$ and Big $\Omega$ are not tight bounds for algorithms. Knowing this one could say that every algorithm is an element of $\Omega(1)$ and though this is by definition true, it doesn't tell us anything about the time complexity of the algorithm.
   3. If an arbitrarily large $n_0$ is chosen for the asymptotic analysis of an algorithm, the analysis is only concerned with values larger than $n_0$, therefor the behavior of all values below that is a mystery.
 
 - Suppose finding a particular element in a binary search tree with 1,000
@@ -19,8 +19,8 @@
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
 
-  1. The tree could be unbalanced, or even worse, already sorted (effectively creating a linked list). The search would take more time in an unbalanced tree, or worst case linear time.
-  2. Hardware issues or slowdowns could be playing a role. With a larger input, more hardware resources could be being used than a smaller input. If there are temporary variables being used each time the find is called recursively, these can add up and negatively effect the space complexity, thus slowing down the processing. 
+  1. The comparisons could take more time depending on the input. For example if the search involved a string comparison, which could take much longer with a larger input size, especially if a portion of that input is much larger strings. 
+  2. The machines that the experiment was runned on are not made explicit, and the second run could have been on a much slower machine.
   3. The algorithm was implemented poorly, resulting in a slower runtime. 
 
 Add your answers to this markdown file.
