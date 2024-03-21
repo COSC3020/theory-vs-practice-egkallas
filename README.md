@@ -20,7 +20,7 @@
   complexity suggests a different time.
 
   1. The comparisons could take more time depending on the input. For example if the search involved a string comparison, which could take much longer with a larger input size, especially if a portion of that input is much larger strings. 
-  2. The machines that the experiment was runned on are not made explicit, and the second run could have been on a much slower machine.
+  2. The machines that the experiment was ran on are not made explicit, and the second run could have been on a much slower machine.
   3. The algorithm was implemented poorly, resulting in a slower runtime. 
 
 Add your answers to this markdown file.
